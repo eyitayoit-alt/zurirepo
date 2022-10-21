@@ -1,0 +1,51 @@
+
+html{
+    font: size 1in;
+}
+#main{
+    width:50%;
+    margin:20px auto;
+    border-radius:20px;
+}
+form{
+    box-sizing: border-box;
+  display: flex;  
+  flex-direction: column;
+  justify-content:center;
+  margin:0.3in auto;
+  padding: 0.2in;
+  color:rgba(12, 91, 196, 0.8)
+}
+input,select,textarea,button[type="submit"]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  box-sizing: border-box;
+    border-radius:10px;
+   
+}
+
+button{
+    width:100px;
+    height:30px;
+    border-radius:10px;
+    background-color:rgba(12, 91, 196, 0.8);
+    color:#fff;
+    margin:0px auto;
+}
+@media screen and (min-width:8.33in) {
+    input,select,textarea,button[type="submit"]{
+        width:2.5in;
+    }
+    #main{
+        width:70%;
+    }
+    form{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        padding:0.2in;
+        width:3.5in;
+        
+    }
+}
